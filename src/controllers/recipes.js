@@ -86,10 +86,10 @@ const remove = async (req, res, next) => {
   }
 };
 
-// module.exports = {
-//   getAll,
-//   get: [recipeExists, get],
-//   save,
-//   update: [recipeExists, update],
-//   remove: [recipeExists, remove],
-// };
+module.exports = {
+  getAll,
+  get: [recipeExists, get],
+  save,
+  update: [recipeExists, update],
+  remove: [recipeExists, remove],
+};
