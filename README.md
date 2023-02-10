@@ -1,8 +1,63 @@
 # express-recipes
 
-## Description
+This is a full-stack web application that allows users to search and save their favorite recipes. The front-end is built using React, and the back-end is powered by Express and a MongoDB database.
 
-This is a simple beautiful RESTful API with Express. I simply set this reppository up for me to showcase my very first understanding of RESTful API with Express that was in my local machine 3 years ago which I just pushed to Github. Ooops :D I should have done this sooner. 
+Features
+--------
+
+-   Search for recipes using the Edamam Recipe Search API
+-   Save recipes to a MongoDB database for later viewing
+-   View saved recipes and delete them if desired
+
+Getting Started
+---------------
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+-   Node.js and npm (the Node Package Manager)
+-   A MongoDB database (you can use a cloud-based service such as MongoDB Atlas or set up your own local instance)
+
+### Installation
+
+Clone the repository to your local machine:
+
+
+
+`git clone https://github.com/ajinsunny/express-recipes.git`
+
+Navigate to the directory where you cloned the repository:
+
+`cd express-recipes`
+
+ Install the required packages:
+
+
+`npm install`
+
+Create a `.env` file in the root directory of the project and add the following line to it, replacing the placeholder text with your own MongoDB URI:
+
+`MONGODB_URI=<your-mongodb-uri>`
+
+
+Start the development server:
+
+`npm start`
+
+The application should now be running at `http://localhost:3000`.
+
+Built With
+----------
+
+-   [React](https://reactjs.org/) - JavaScript library for building user interfaces
+-   [Express](https://expressjs.com/) - Node.js framework for building back-end applications
+-   [MongoDB](https://www.mongodb.com/) - NoSQL database for storing data
+
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE](https://chat.openai.com/chat/LICENSE) file for details. 
 
 The source for this project consists of
   - controllers. 
